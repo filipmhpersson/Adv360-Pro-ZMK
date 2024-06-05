@@ -17,6 +17,20 @@
             bindings = <&kp RET>;
         };
 
+        swedish_ae: swedish_ae {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none>;
+            label = "SWEDISH_AE";
+        };
+
+        swedish_AE: swedish_AE {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none>;
+            label = "SWEDISH_AE";
+        };
+
         #endif
 
         hm: homerow_mods {
